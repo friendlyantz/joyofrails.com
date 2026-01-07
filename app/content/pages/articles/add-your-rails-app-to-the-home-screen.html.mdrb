@@ -289,12 +289,12 @@ In your manifest, you can add variations for each size and mark their `purpose` 
   // ...
   "icons": [
     {
-      "src": "<%= asset_path("app-icons/icon-192.png") %>",
+      "src": "<%= image_path("app-icons/icon-192.png") %>",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "<%= asset_path("app-icons/icon-192-maskable.png") %>",
+      "src": "<%= image_path("app-icons/icon-192-maskable.png") %>",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "maskable"
